@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version             = "2.0.4"
   s.source       = { :git => 'https://github.com/thanhtanh/azure-notificationhubs-ios.git' }
   #s.vendored_frameworks = "WindowsAzureMessaging.framework"
-  s.source_files = 'WindowsAzureMessaging/*.*'
+  s.source_files = 'WindowsAzureMessaging/**.*'
   s.platform            = :ios, "6.0"
   s.author              = { "Microsoft" => "http://microsoft.com" }
   s.documentation_url   = "https://docs.microsoft.com/en-us/azure/notification-hubs/"
