@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "AzureNotificationHubs-iOS"
-  s.version             = "NEW_VERSION_NUMBER"
+  s.version             = "2.0.4"
   s.source       = { :git => 'https://github.com/thanhtanh/azure-notificationhubs-ios.git' }
   s.vendored_frameworks = "WindowsAzureMessaging.framework"
   s.platform            = :ios, "6.0"
